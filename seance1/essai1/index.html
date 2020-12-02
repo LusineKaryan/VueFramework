@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essai1 - Vue.js</title>
+</head>
+<body>
+    <div id="app-1">
+        <p>{{ message }}</p>
+    </div>
+    <div id="app-2">
+        <span v-bind:title="message">Passez votre souris pour afficher le message</span>
+    </div>
+    <div id="app-3">
+        <p v-if="seen">Maintenant vouz me voyez</p>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
